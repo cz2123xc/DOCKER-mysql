@@ -1,4 +1,8 @@
-CREATE TABLE visits (
-visitor_name varchar(25) not null,
-visit_datetime datetime default NOW() not null
+CREATE TABLE dcinside (
+id SERIAL PRIMARY KEY,
+ranking INTEGER NOT NULL,
+title VARCHAR(255) NOT NULL,
+href VARCHAR(255) NOT NULL,
+created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
 );

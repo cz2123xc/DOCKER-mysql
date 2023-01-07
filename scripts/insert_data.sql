@@ -1,3 +1,10 @@
-INSERT INTO visits (visitor_name) VALUES ('John');
-INSERT INTO visits (visitor_name) VALUES ('Mark');
-INSERT INTO visits (visitor_name) VALUES ('Robin');
+INSERT INTO dcinside ( ranking, title, href ) VALUES (1, 'title1', 'https://www.dcinside.com/');
+INSERT INTO dcinside ( ranking, title, href ) VALUES (2, 'title2', 'https://www.dcinside.com/');
+INSERT INTO dcinside ( ranking, title, href ) VALUES (3, 'title3', 'https://www.dcinside.com/');
+INSERT INTO dcinside ( ranking, title, href ) VALUES (4, 'title4', 'https://www.dcinside.com/');
+INSERT INTO dcinside ( ranking, title, href ) VALUES (5, 'title5', 'https://www.dcinside.com/');
+INSERT INTO dcinside ( ranking, title, href ) VALUES (6, 'title6', 'https://www.dcinside.com/');
+INSERT INTO dcinside ( ranking, title, href ) VALUES (7, 'title7', 'https://www.dcinside.com/');
+INSERT INTO dcinside ( ranking, title, href ) VALUES (8, 'title8', 'https://www.dcinside.com/');
+INSERT INTO dcinside ( ranking, title, href ) VALUES (9, 'title9', 'https://www.dcinside.com/');
+INSERT INTO dcinside ( ranking, title, href ) VALUES (10, 'title10', 'https://www.dcinside.com/');

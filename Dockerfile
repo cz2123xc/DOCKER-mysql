@@ -6,7 +6,7 @@ FROM mysql:8
 ENV MYSQL_USER mysql_user
 ENV MYSQL_PASSWORD mysql_password
 ENV MYSQL_ROOT_PASSWORD mysql_root_password
-ENV MYSQL_DATABASE visitlog
+ENV MYSQL_DATABASE j_soup
 
 # 도커환경에서 컨테이너 생성시 스크립트를 실행하는 폴더로
 # 미리 작성된 스크립트들을 이동
@@ -26,3 +26,5 @@ COPY ./scripts/ /docker-entrypoint-initdb.d/
 #$ docker exec -it my-running-my /bin/bash
 #$ docker push cz2123zc/mysql-normal:latest
 #$ docker attach my-running-my
+
+# 볼륨 경로 /var/lib/mysql
